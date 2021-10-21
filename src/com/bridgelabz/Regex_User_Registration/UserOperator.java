@@ -29,4 +29,16 @@ public class UserOperator {
 		}
 	}
 
+	public void emailaddress(String emailaddress) {
+		String regex = "^[a-z0-9]{3,}+([_+-.][a-z0-9]{3,}+)*@[a-z0-9]+.[a-z]{2,3}+(.[a-z]{2,3}){0,1}$";
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(emailaddress);
+		boolean valid = matcher.matches();
+		if (valid == true) {
+			System.out.println("Your Email Address " + emailaddress + " is Valid");
+		} else {
+			System.out.println("Your Email Address " + emailaddress + " is Invalid");
+		}
+	}
+
 }
