@@ -11,6 +11,7 @@ public class RegexURP {
 		user.phoneNo("91 9844415351");
 		user.passward("Navi1234");
 		user.passward("Naviggg");
+		user.passward("Navi@123");
 
 	}
 
