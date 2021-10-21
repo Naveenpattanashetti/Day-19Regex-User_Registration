@@ -9,7 +9,7 @@ public class RegexURP {
 		user.lastName("Pattanashetti");
 		user.emailaddress("pattanashettinaveen@gmail.com");
 		user.phoneNo("91 9844415351");
-		user.passRule1("123asNHP");
+		user.passRule1("123asNGP");
 
 	}
 
